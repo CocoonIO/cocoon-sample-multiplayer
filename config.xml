@@ -10,10 +10,12 @@
 
     <content src="index.html" />
     <access origin="*"/>
+
+    <cocoon:plugin name="cocoon-plugin-multiplayer-ios-gamecenter"/>
+    <cocoon:plugin name="cocoon-plugin-multiplayer-android-googleplaygames">
+        <param name="APP_ID" value=""/>
+    </cocoon:plugin>
     
     <preference name="Orientation" value="landscape"/>
     <preference name="Fullscreen" value="true"/>
-
-    <cocoon:plugin name="com.ludei.canvasplus.ios"/>
-    <cocoon:plugin name="com.ludei.canvasplus.android"/>
 </widget>
