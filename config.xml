@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget id="io.cocoon.sample.multiplayer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cocoon="http://cocoon.io/ns/1.0">
-    <name>Multiplayer</name>
+    <name>Cocoon Multiplayer demo</name>
     <description>
     This demo shows the multiplayer support in Cocoon. Currently the multiplayer plugin supports Game Center in iOS, Google Play Games on Android and a the Loopback mode on all platforms.
     </description>
